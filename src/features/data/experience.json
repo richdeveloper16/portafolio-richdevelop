@@ -1,0 +1,82 @@
+[
+  {
+    "company": "Fiscalía General de Justicia de la Ciudad de México",
+    "role": "Desarrollador Full Stack",
+    "period": "Enero 2026 – Actualidad",
+    "details": [
+      "Desarrollo y mantenimiento de soluciones institucionales con Java, Spring Boot, TypeScript y Angular.",
+      "Participación en nuevos proyectos con NestJS, Next.js y PostgreSQL.",
+      "Diseño de APIs REST e integración con sistemas institucionales; acceso a datos con JPA/Hibernate.",
+      "Desarrollo de carga masiva CSV, autenticación/SSO, mejoras de seguridad y optimización de consultas.",
+      "Evolución hacia liderazgo técnico: responsable de proyectos y apoyo técnico a integrantes de la célula de desarrollo.",
+      "Participación en análisis, pruebas, documentación y liberaciones a QA y producción."
+    ],
+    "image": {
+      "src": "",
+      "alt": ""
+    }
+  },
+  {
+    "company": "IMSS Bienestar",
+    "role": "Desarrollador / Subgerente – Arquitectura de Datos",
+    "period": "2023 – 2025",
+    "details": [
+      "Ingreso como desarrollador y posterior promoción a Subgerente, con responsabilidades de liderazgo técnico y coordinación.",
+      "Coordinación de equipos de desarrollo.",
+      "Liderazgo del ciclo completo de desarrollo y diseño de arquitectura de datos para sistemas institucionales de salud."
+    ],
+    "image": {
+      "src": "",
+      "alt": ""
+    }
+  },
+  {
+    "company": "Poligon",
+    "role": "Desarrollador Freelance",
+    "period": "2022",
+    "details": [
+      "Análisis de requerimientos y desarrollo de aplicaciones web y móviles como consultor independiente."
+    ],
+    "image": {
+      "src": "",
+      "alt": ""
+    }
+  },
+  {
+    "company": "Registro Único de Vivienda (RUV)",
+    "role": "Desarrollador / Subdirección de Desarrollo",
+    "period": "2014 – 2023",
+    "details": [
+      "Promoción a Subgerente con responsabilidades de liderazgo técnico y coordinación.",
+      "Desarrollo y mantenimiento de aplicaciones web críticas para el sector vivienda durante 9 años.",
+      "Coordinación de equipos de desarrollo.",
+      "Análisis, diseño, revisiones técnicas y acompañamiento en la resolución de problemas."
+    ],
+    "image": {
+      "src": "",
+      "alt": ""
+    }
+  },
+  {
+    "company": "ONEST Logistics",
+    "role": "Desarrollador",
+    "period": "2013 – 2014",
+    "details": [
+      "Desarrollo y mantenimiento de aplicaciones web para procesos del sector logístico."
+    ],
+    "image": {
+      "src": "",
+      "alt": ""
+    }
+  },
+  {
+    "company": "Avansis",
+    "role": "Desarrollador",
+    "period": "2010 – 2013",
+    "details": [],
+    "image": {
+      "src": "",
+      "alt": ""
+    }
+  }
+]

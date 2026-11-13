@@ -1,0 +1,107 @@
+[
+  {
+    "label": "Lenguajes",
+    "key": "languages",
+    "items": [
+      "Java",
+      "C#",
+      "Python",
+      "JavaScript",
+      "TypeScript"
+    ],
+    "image": {
+      "src": "",
+      "alt": ""
+    }
+  },
+  {
+    "label": "Frontend",
+    "key": "frontend",
+    "items": [
+      "Angular",
+      "React",
+      "Next.js",
+      "Ionic",
+      "CSS",
+      "Tailwind CSS",
+      "Bootstrap"
+    ],
+    "image": {
+      "src": "",
+      "alt": ""
+    }
+  },
+  {
+    "label": "Backend",
+    "key": "backend",
+    "items": [
+      "Node.js",
+      "Spring Boot",
+      "Spring Framework",
+      "C#/.NET",
+      "NestJS"
+    ],
+    "image": {
+      "src": "",
+      "alt": ""
+    }
+  },
+  {
+    "label": "Bases de datos",
+    "key": "databases",
+    "items": [
+      "PostgreSQL",
+      "SQL Server",
+      "MySQL",
+      "MongoDB",
+      "MariaDB"
+    ],
+    "image": {
+      "src": "",
+      "alt": ""
+    }
+  },
+  {
+    "label": "ORM",
+    "key": "orm",
+    "items": [
+      "JPA",
+      "Hibernate",
+      "Prisma"
+    ],
+    "image": {
+      "src": "",
+      "alt": ""
+    }
+  },
+  {
+    "label": "Herramientas y metodologías",
+    "key": "tools",
+    "items": [
+      "Git",
+      "Maven",
+      "Docker",
+      "Scrum",
+      "Kanban",
+      "Metodología BEAN"
+    ],
+    "image": {
+      "src": "",
+      "alt": ""
+    }
+  },
+  {
+    "label": "Arquitectura y prácticas",
+    "key": "practices",
+    "items": [
+      "APIs REST",
+      "Clean Code",
+      "SOLID",
+      "Arquitectura de software y datos"
+    ],
+    "image": {
+      "src": "",
+      "alt": ""
+    }
+  }
+]
