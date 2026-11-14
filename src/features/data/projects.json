@@ -3,12 +3,29 @@
     "slug": "beauty-salon",
     "title": "Beauty Salon",
     "url": "https://mockup-estetica.onrender.com/",
-    "image": { "src": "/images/projects/beautysalon-001.png", "alt": "Vista previa del proyecto Beauty Salon" }
+    "image": {
+      "src": "/images/projects/beautysalon-001.png",
+      "alt": "Vista previa del proyecto Beauty Salon"
+    },
+    "technologies": [
+      "React",
+      "TypeScript",
+      "Vite"
+    ]
   },
   {
     "slug": "anfibius-retro",
     "title": "Anfibius Retro",
     "url": "https://anfibius-retro.onrender.com/",
-    "image": { "src": "/images/projects/anfibius-retro-001.png", "alt": "Vista previa del proyecto Anfibius Retro" }
+    "image": {
+      "src": "/images/projects/anfibius-retro-001.png",
+      "alt": "Vista previa del proyecto Anfibius Retro"
+    },
+    "technologies": [
+      "Astro",
+      "React",
+      "TypeScript",
+      "Tailwind CSS"
+    ]
   }
 ]

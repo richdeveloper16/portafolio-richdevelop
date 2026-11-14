@@ -70,7 +70,7 @@ export default function Home() {
         <section id="tecnologias" className={sectionClass}>
           <div className="mx-auto max-w-7xl">
             <h2 className="mb-4 text-3xl font-bold md:text-4xl">Tecnologías</h2>
-            <p className="mb-10 max-w-2xl leading-7 text-slate-400">Herramientas, lenguajes y prácticas que utilizo para construir soluciones empresariales.</p>
+            <p className="mb-10 max-w-2xl leading-7 text-slate-400"></p>
             <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-3">
               {skills.map((group) => (
                 <article key={group.key} className="rounded-2xl border border-white/10 bg-[#111827] p-6">
@@ -107,11 +107,19 @@ export default function Home() {
                       className="object-cover object-top transition-transform duration-300 motion-safe:group-hover:scale-105"
                     />
                   </div>
-                  <div className="flex items-center justify-between gap-4 p-6">
-                    <h3 className="text-xl font-semibold">{project.title}</h3>
-                    <span className="inline-flex shrink-0 items-center gap-2 text-sm font-medium text-sky-400">
-                      Ver proyecto <ArrowUpRight size={18} aria-hidden="true" />
-                    </span>
+                  <div className="p-6">
+                    <div className="flex flex-wrap items-center justify-between gap-4">
+                      <h3 className="text-xl font-semibold">{project.title}</h3>
+                      <span className="inline-flex shrink-0 items-center gap-2 text-sm font-medium text-sky-400">
+                        Ver proyecto <ArrowUpRight size={18} aria-hidden="true" />
+                      </span>
+                    </div>
+                    {project.technologies.length > 0 && (
+                      <p className="mt-4 text-sm leading-7 text-slate-400">
+                        <span className="font-medium text-slate-300">Tecnologías: </span>
+                        {project.technologies.join(", ")}.
+                      </p>
+                    )}
                   </div>
                 </a>
               ))}
