@@ -1,0 +1,119 @@
+.gallery {
+  width: min(100% - 32px, 1120px);
+  margin: clamp(24px, 5vw, 64px) auto;
+}
+
+.header {
+  margin-bottom: 24px;
+}
+
+.header h1 {
+  margin: 10px 0 0;
+  font-size: clamp(28px, 4vw, 42px);
+}
+
+.back,
+.visit {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.back {
+  color: #c8aaff;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  padding: 12px;
+  border-radius: 22px;
+  background: linear-gradient(145deg, #221535, #442364 55%, #20142f);
+}
+
+.card {
+  --artwork: linear-gradient(145deg, #ffca4e, #f7ebb7 52%, #41887e);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px 12px 16px;
+  border: 1px solid #ffffff10;
+  border-radius: 16px;
+  background: #111014;
+  text-align: center;
+}
+
+.card:nth-child(4n + 2) {
+  --artwork: linear-gradient(145deg, #ffb3de, #ffd2f7 50%, #ba57e1);
+}
+
+.card:nth-child(4n + 3) {
+  --artwork: linear-gradient(145deg, #fa8455, #ffb0a0 50%, #df476d);
+}
+
+.card:nth-child(4n) {
+  --artwork: linear-gradient(145deg, #1ca4ff, #7cd7ff 48%, #244dec);
+}
+
+.artwork {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 11px;
+  background: var(--artwork);
+}
+
+.screenshot {
+  width: 82%;
+  height: 82%;
+  object-fit: contain;
+  filter: drop-shadow(0 8px 14px #110b2766);
+}
+
+.card h2 {
+  margin: 14px 0 9px;
+  font-size: clamp(15px, 2vw, 19px);
+  line-height: 1.3;
+}
+
+.technologies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px;
+  padding: 0;
+  margin: 0 0 16px;
+  list-style: none;
+}
+
+.technologies li {
+  padding: 3px 8px;
+  border: 1px solid #a976ff38;
+  border-radius: 6px;
+  background: #21192c;
+  color: #e3d9ef;
+  font-size: 11px;
+}
+
+.visit {
+  margin-top: auto;
+  padding: 6px 14px;
+  border: 1px solid #9786ae;
+  border-radius: 8px;
+  font-size: 13px;
+}
+
+.visit:hover {
+  background: #2e2042;
+  border-color: #c8aaff;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 10px;
+    padding: 8px;
+  }
+}
