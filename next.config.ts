@@ -5,6 +5,7 @@ const nextConfig: NextConfig = {
   cacheComponents: true,
   partialPrefetching: true,
   devIndicators: false,
+
   turbopack: {
     rules: {
       "globals.css": {
@@ -13,6 +14,7 @@ const nextConfig: NextConfig = {
       },
     },
   },
+
 };
 
 export default nextConfig;

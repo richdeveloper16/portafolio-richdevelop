@@ -1,5 +1,6 @@
 
 import type { Metadata } from "next";
+import GoogleAnalytics from "@/components/analytics/GoogleAnalytics";
 import PrivateAnalytics from "@/components/analytics/PrivateAnalytics";
 import "./globals.css";
 
@@ -16,8 +17,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
-      <body className="antialiased">
+      <body>
         {children}
+        <GoogleAnalytics />
         <PrivateAnalytics />
       </body>
     </html>
