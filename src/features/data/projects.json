@@ -1,6 +1,6 @@
 [
   {
-    "slug": "beauty-salon",
+    "slug": "Salon de belleza",
     "title": "Beauty Salon",
     "url": "https://mockup-estetica.onrender.com/",
     "image": {
@@ -20,6 +20,36 @@
     "image": {
       "src": "/images/projects/anfibius-retro-001.png",
       "alt": "Vista previa del proyecto Anfibius Retro"
+    },
+    "technologies": [
+      "Astro",
+      "React",
+      "TypeScript",
+      "Tailwind CSS"
+    ]
+  },
+  {
+    "slug": "pepes-burguers",
+    "title": "Pepe's Burguers",
+    "url": "https://pepeburguers.onrender.com/",
+    "image": {
+      "src": "/images/projects/pepeburger.png",
+      "alt": "Vista previa del proyecto Pepe's Burguers"
+    },
+    "technologies": [
+      "Next",
+      "React",
+      "TypeScript",
+      "Tailwind CSS"
+    ]
+  },
+   {
+    "slug": "gimnasio",
+    "title": "Gimnasio",
+    "url": "https://mockup-gimnasio.onrender.com",
+    "image": {
+      "src": "/images/projects/gimansio.png",
+      "alt": "usuario: 'socio@fitpro.com', password: 'FitPro2026!' / usuario: 'coach.rich', password: 'FitPro2026!'"
     },
     "technologies": [
       "Astro",
