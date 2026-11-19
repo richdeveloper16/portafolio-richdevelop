@@ -1,4 +1,4 @@
-﻿import Image from "next/image";
+import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, ArrowUpRight, BriefcaseBusiness, Code2, FolderOpen, UserRound } from "lucide-react";
 import Workspace from "@/components/layout/Workspace";

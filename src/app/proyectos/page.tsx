@@ -1,4 +1,4 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import { FolderOpen } from "lucide-react";
 import Workspace from "@/components/layout/Workspace";
 import ProjectExplorer from "@/components/ui/ProjectExplorer";

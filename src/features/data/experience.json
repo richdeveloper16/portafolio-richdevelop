@@ -62,7 +62,10 @@
     "role": "Desarrollador",
     "period": "2013 – 2014",
     "details": [
-      "Desarrollo y mantenimiento de aplicaciones web para procesos del sector logístico."
+      "Desarrollo, implementación y mantenimiento de aplicaciones web para la gestión de procesos operativos del sector logístico.",
+      "Análisis de requerimientos funcionales para la automatización y optimización de procesos internos.",
+      "Desarrollo y actualización de módulos para la administración y consulta de información logística.",
+      "Soporte técnico y atención de requerimientos relacionados con las aplicaciones desarrolladas."
     ],
     "image": {
       "src": "",
@@ -73,7 +76,45 @@
     "company": "Avansis",
     "role": "Desarrollador",
     "period": "2010 – 2013",
-    "details": [],
+    "details": [
+      "Análisis y levantamiento de requerimientos funcionales y técnicos para el desarrollo de aplicaciones web.",
+      "Diseño, desarrollo e implementación de nuevas funcionalidades de acuerdo con las necesidades del negocio.",
+      "Desarrollo y mantenimiento de módulos para la administración, procesamiento y consulta de información.",
+      "Implementación de validaciones y reglas de negocio en los diferentes módulos del sistema.",
+      "Análisis, diagnóstico y solución de errores detectados durante las pruebas y la operación de los sistemas."
+    ],
+    "image": {
+      "src": "",
+      "alt": ""
+    }
+  },
+  {
+    "company": "INAH – Instituto Nacional de Antropología e Historia",
+    "role": "Desarrollador",
+    "period": "2007 – 2010",
+    "details": [
+      "Análisis de requerimientos para el desarrollo y mantenimiento de aplicaciones web institucionales.",
+      "Diseño y desarrollo de sistemas orientados a la administración y consulta de información.",
+      "Mantenimiento correctivo y actualización de aplicaciones institucionales existentes.",
+      "Identificación y corrección de incidencias funcionales y técnicas.",
+      "Atención y soporte a usuarios en la operación de los sistemas institucionales."
+    ],
+    "image": {
+      "src": "",
+      "alt": ""
+    }
+  },
+  {
+    "company": "KSB La Era Software",
+    "role": "Desarrollador",
+    "period": "2004 – 2007",
+    "details": [
+      "Diseño, desarrollo y mantenimiento de sitios y aplicaciones web.",
+      "Maquetación y construcción de interfaces de usuario de acuerdo con los requerimientos de cada proyecto.",
+      "Actualización de contenidos, componentes y funcionalidades de aplicaciones existentes.",
+      "Mantenimiento preventivo y correctivo de sitios y sistemas web.",
+      "Participación en actividades de análisis, desarrollo, implementación y soporte de soluciones web."
+    ],
     "image": {
       "src": "",
       "alt": ""
